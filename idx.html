@@ -1,35 +1,10 @@
-<nav class="navbar">
-        <ul class="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
-<script>
-    // JavaScript to handle active class toggle
-    document.addEventListener('DOMContentLoaded', function() {
-        const menuItems = document.querySelectorAll('.nav-menu a');
-
-        menuItems.forEach(item => {
-            item.addEventListener('click', function() {
-                menuItems.forEach(link => link.classList.remove('active')); // Remove active class from all items
-                this.classList.add('active'); // Add active class to the clicked item
-            });
-        });
-    });
-</script>
 
 
 
 
 
 
-
-/* Basic reset */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
