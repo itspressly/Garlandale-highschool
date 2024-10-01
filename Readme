@@ -1,1 +1,61 @@
 So this is your project you guys can edit it however you want and you can run it on github pages to see how it looks on different devices aswell as edit it however you want (have a great day :)
+
+
+font-family: Sets the font for the entire page to Arial, with a fallback to sans-serif.
+background color: Applies a light blue background (#f0f8ff) to the entire page.
+margin: Removes default margins, ensuring no spacing around the edges of the page.
+color: Sets a default text color for the body (#333, which is dark gray)
+
+ext-decoration: none: Removes the underline from links.
+color: Sets the link color to white (#fff).
+
+background color: Sets the navbar’s background to a deep blue color (#0047ab).
+padding: Add padding inside the navbar to space the content properly.
+display: flexbox layout, which helps align the content horizontally.
+justify-content: space-between: Spreads the logo and navigation items apart, with space between them.
+
+
+
+
+color: Sets the logo text color to white (#fff).
+font-size: Increases the logo text size to 24px.
+
+display: flex: Aligns the list items horizontally.
+list-style: none: Removes the default bullet points from the list items.
+padding: 0: Removes any default padding on the unordered list.
+
+
+
+
+margin-left: Adds space between each list item, ensuring they don’t stick together.
+
+
+border-radius: Rounds the corners slightly with a 5px radius.
+cursor: pointer: Changes the mouse cursor to a pointer (hand icon) when hovering over the links or buttons.
+
+display: flex: Centers the form horizontally.
+justify-content: center: Ensures the form stays centered on the page.
+margin-top: Adds space above the form, pushing it 50px down from the top of the page.
+
+
+width: Limits the form width to 400px.
+box-shadow: Adds a subtle shadow around the form to create a "floating" effect.
+
+text-align: center: Centers the form title (login/registration heading).
+color: Colors the heading text blue (#0047ab).
+
+
+position: absolute: Positions the icon inside the input box relative to the input field.
+left: 10px: Moves the icon 10px from the left edge.
+top: 50%; transform: translateY(-50%): Centers the icon vertically inside the input field.
+color: Colors the icon blue (#0047ab).
+
+
+display: flex: Aligns the "Remember me" checkbox and the "Forgot password" link in a single row.
+justify-content: space-between: Spreads them apart within the form.
+font-size: Reduces the font size to 14px.
+
+
+
+@media (max-width: 768px): Applies the following styles only when the screen width is 768px or less (tablet/mobile view).
+flex-direction: column: Changes the navbar layout and the unordered list from horizontal to vertical on small screens for better readability.
