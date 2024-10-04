@@ -1,7 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+  }
 
-body {
+
+  body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff;
+    background-image:url(badge.jpg);
+    background-size:400px;
     margin: 0;
     color: #333;
 }
@@ -110,4 +118,8 @@ h2 {
     ul {
         flex-direction: column;
     }
+}
+
+about.html{
+    background-color: blue;
 }
